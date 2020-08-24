@@ -5,7 +5,7 @@ const key=require('../data/api').key
 
 router.post('/maps',async (req,res)=>{
     if(req.body.latitude&&req.body.longitude){
-        var url=`https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=hospital&inputtype=textquery&fields=geometry,formatted_address,name,place_id&locationbias=circle:10000@${req.body.latitude},${req.body.longitude}&key=${key}`
+        var url=`https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=hospital&inputtype=textquery&fields=geometry,formatted_address,name,place_id&locationbias=circle:5000@${req.body.latitude},${req.body.longitude}&key=${key}`
     fetch(url).then(response=>response.json())
     .then(data=>{
         console.log(data)
