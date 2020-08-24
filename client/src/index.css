@@ -111,6 +111,14 @@ code {
 .phone a{
   text-decoration: none;
 }
+.phone a:hover {
+  opacity: 0.7;
+  color: blue;
+}
+.phone a:active {
+  opacity: 0.7;
+  color: blue;
+}
 .direction{
   text-align: center;
   color: black;
