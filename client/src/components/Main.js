@@ -31,7 +31,7 @@ export const Main = () => {
                     const route=[places[0],places[1]]
                     const place_id={"place_id":res.data.results[0].place_id}
                     axios.post('/phone',place_id).then(res=>{
-                        Setph(res.data.result.formatted_phone_number)
+                         res.data.result.formatted_phone_number?Setph(res.data.result.formatted_phone_number):Setph('Unavailable')
                     }).catch(e=>console.log(e))
                     axios.post('/directions',route)
                     .then(res=>{
