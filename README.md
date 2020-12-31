@@ -1,10 +1,10 @@
 # FirstCare PWA (Progressive WebApp)
 
-#### Built Using:
+### Built Using:
 
--React.js
--Node.js
--Express
--Google Places API
--Google Directions API
+- React.js
+- Node.js
+- Express
+- Google Places API
+- Google Directions API
 
