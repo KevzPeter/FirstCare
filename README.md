@@ -3,8 +3,8 @@
 
 ## What it does
 * On opening the app, it automatically finds and displays directions to nearest hospital to the user's location
-* Displays hospital's contact information and ambulance hotline
-* First aid information for various scenarios also displayed 
+* Displays hospital's contact information and ambulance help-line number
+* First aid information for various emergency situations also displayed 
 
 <img src="https://github.com/KevzPeter/FirstCare/blob/master/docs/firstcare.png" width="300" height="300" />
 
